@@ -22,7 +22,8 @@ import { withStyles } from '@material-ui/core/styles';
 //STYLES
 const styles = {
   card: {
-    minWidth: 275,
+    minWidth: 355,
+    margin: 2,
   },
   bullet: {
     display: 'inline-block',
@@ -168,12 +169,16 @@ class test extends Component {
                           <Card className={classes.card}>
                           <CardContent>
                             <Typography className={classes.title} color="textSecondary" gutterBottom>
-                            {post._id}
+                              {post._id}
+                            </Typography>
+
+                            <Typography className={classes.pos} color="textPrimary">
+                              {post.title}
+                            </Typography>
+                            <Typography className={classes.pos} color="textSecondary">
+                              {post.content}
                             </Typography>
                           </CardContent>
-                            
-
-
                           </Card>
                         </div>
                       ))}
