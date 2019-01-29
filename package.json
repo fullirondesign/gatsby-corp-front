@@ -1,0 +1,56 @@
+{
+  "name": "gatsby-starter-default",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "@material-ui/core": "^3.9.1",
+    "apollo-boost": "^0.1.27",
+    "apollo-client-preset": "^1.0.8",
+    "apollo-link": "^1.2.6",
+    "apollo-link-context": "^1.0.12",
+    "apollo-link-rest": "^0.7.0",
+    "classnames": "^2.2.6",
+    "gatsby": "^2.0.104",
+    "gatsby-image": "^2.0.29",
+    "gatsby-plugin-manifest": "^2.0.15",
+    "gatsby-plugin-offline": "^2.0.22",
+    "gatsby-plugin-react-helmet": "^3.0.5",
+    "gatsby-plugin-sharp": "^2.0.19",
+    "gatsby-source-filesystem": "^2.0.18",
+    "gatsby-source-graphql": "^2.0.8",
+    "gatsby-transformer-sharp": "^2.1.13",
+    "graphql-tag": "^2.10.1",
+    "lodash": "^4.17.11",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-apollo": "^2.4.1",
+    "react-dev-utils": "^7.0.1",
+    "react-dom": "^16.7.0",
+    "react-helmet": "^5.2.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "format": "prettier --write \"src/**/*.js\"",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "devDependencies": {
+    "prettier": "^1.15.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
